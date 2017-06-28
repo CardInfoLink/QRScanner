@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+
+    <SurfaceView
+        android:id="@+id/capture_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <com.cardinfolink.qrscanner.view.ScanBoxView
+        android:id="@+id/capture_crop_view_v"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:qrcv_animTime="1000"
+        app:qrcv_borderColor="@color/colorPrimary"
+        app:qrcv_borderSize="1dp"
+        app:qrcv_cornerColor="@color/colorPrimary"
+        app:qrcv_cornerLength="20dp"
+        app:qrcv_cornerSize="2dp"
+        app:qrcv_customGridScanLineDrawable="@drawable/custom_grid_scan_line"
+        app:qrcv_isCenterVertical="true"
+        app:qrcv_isScanLineReverse="true"
+        app:qrcv_maskColor="@color/colorBlack50"
+        app:qrcv_rectWidth="@dimen/capture_rectWidth"
+        app:qrcv_scanLineColor="@android:color/holo_green_dark"
+        app:qrcv_scanLineMargin="0dp"
+        app:qrcv_scanLineSize="0.5dp"
+        app:qrcv_toolbarHeight="@dimen/space_16" />
+</RelativeLayout>
