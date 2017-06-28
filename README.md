@@ -23,4 +23,4 @@
 
 
 ## 许可证
-QRScanner 代码受LGPL协议保护，参见
+QRScanner 代码受LGPL协议保护，参见[LICENSE](https://raw.githubusercontent.com/CardInfoLink/QRScanner/master/LICENSE)
