@@ -18,7 +18,7 @@
 
 详情参见：
 
-[二维码扫码优化](http://blog.csdn.net/sunshine2050_CSDN/article/details/73809597)
+[二维码扫码优化](https://cardinfolink.github.io/2017/06/28/%E6%99%BA%E8%83%BD%E8%AE%BE%E5%A4%87%E4%B8%8A%E7%9A%84%E4%BA%8C%E7%BB%B4%E7%A0%81%E8%A7%A3%E7%A0%81%E4%BC%98%E5%8C%96/)
 
 
 
